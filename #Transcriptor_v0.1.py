@@ -3,6 +3,7 @@
     #and outputs the DNA strand, its complement, and the RNA sequence
     #future versions of this program will allow the user to input an RNA sequence originally, as well as 
     #allow the program to read the codons of the sequence and output a protein strand
+    #future versions will also you to insert capital letters lmfao
 
 
 #Introduce and get DNA
