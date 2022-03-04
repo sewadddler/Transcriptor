@@ -3,12 +3,11 @@
     #and outputs the DNA strand, its complement, and the RNA sequence
     #future versions of this program will allow the user to input an RNA sequence originally, as well as 
     #allow the program to read the codons of the sequence and output a protein strand
-    #future versions will also you to insert capital letters lmfao
 
 
 #Introduce and get DNA
 print("Hello, welcome to the Transcriptor.")
-DNASequence = input("Please enter your DNA sequence: ")
+DNASequence = input("Please enter your DNA sequence: ").lower()
 print("Your sequence contains", len(DNASequence) ,"base pairs. \n")
 
 #First, print the original DNA sequence
